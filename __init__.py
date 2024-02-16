@@ -1,10 +1,7 @@
-from tianxiang_node_test.node import *
+from . node import *
 
 import server
 from aiohttp import web
-import aiohttp
-import json
-import zipfile
 import shutil
 import os
 
